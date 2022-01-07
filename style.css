@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #0b0f12;
+	font-family: montserrat,sans-serif;
+	background-image: url("https://th.bing.com/th/id/R.df186ebcbb530fb43053c2a959954bd2?rik=X8MK0SrYTCc1oA&riu=http%3a%2f%2forig08.deviantart.net%2ffcfb%2ff%2f2016%2f213%2f4%2fe%2fflag_cloth_hanging_transparency_by_milton49-daca4c3.png&ehk=9mlFFo8ZRvQObaxliiK%2bYzOfG%2f1H%2f4A2PdOwXoeRl2A%3d&risl=&pid=ImgRaw&r=0");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 1px solid #fffd;
+	border-radius: 16px;
+	height:99vh;
+}
+
+.navi-con{
+position: relative;
+max-width: 100%;
+padding: 10px;
+margin: 20px 30px;
+box-sizing: border-box;
+}
+.logo{
+color: #fff;
+height: 60px;
+font-size: 36px;
+line-height: 60px;
+padding: 0px 20px;
+text-align: center;
+box-sizing: border-box;
+float: left;
+font-weight: 700;
+text-decoration: none;
+}
+.menu{
+float: right;
+}
+.fixed{
+clear: both;
+}
+.menu ul{
+margin: 0px;
+padding: 0px;
+display: flex;
+}
+.menu ul li{
+list-style: none;
+}
+.menu ul li a{
+display: block;
+margin: 10px 0px;
+padding: 10px 20px;
+text-decoration: none;
+font-weight: 700;
+font-size: 14px;
+color: #FFFFFF;
+}
+.content-container{
+position: relative;
+max-width: 100%;
+margin: 90px 30px 30px;
+}
+.person{
+position: absolute;
+top: 0;
+left: 62%;
+height: 450px;
+width: auto;
+}
+.person img{
+max-height: 100%;
+max-width: 100%;
+}
+h1{
+font-weight: bold;
+margin: 0px;
+color: #FFFFFF;
+}
+p{
+font-size: 20px;
+font-weight: 100;
+line-height: 35px;
+letter-spacing: 0.5px;
+margin: 20px 0px 30px;
+color: rgba(188,188,188,1.00);
+}
+.text{
+left: 0px;
+width: 65%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 469px;
+}
+input[type=button]{
+border: 1px solid #fff;
+border-radius: 20px;
+background-color: transparent;
+color: #FFFFFF;
+font-size: 12px;
+font-weight: bold;
+padding: 12px 45px;
+letter-spacing: 1px;
+text-transform: uppercase;
+outline: none;
+transition: transform 80ms ease-in;
+}
+input[type=button]:active{
+transform:scale(0.95);
+}
+.passiontext{
+left: 0px;
+width: 65%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: left;
+height: 650px;
+}
+.log{
+color: #fff;
+height: 60px;
+font-size: 19px;
+line-height: 50px;
+padding: 0px 20px;
+text-align: center;
+box-sizing: border-box;
+float: left;
+font-weight: 50;
+text-decoration: none;
+}	
+.pic{
+position: absolute;
+top: 15%;
+left: 60%;
+height: 469px;
+width: auto%;
+}	
+.pic img{
+max-height: 100%;
+max-width: 100%;
+}
+.pic2{
+position: absolute;
+top: 20%;
+left: 60%;
+height: 400px;
+width: auto;
+}
+.pic2 img{
+max-height: 100%;
+max-width: 100%;
+}
+.pic3{
+position: absolute;
+top: 20%;
+left: 69%;
+height: 469px;
+width: auto;
+}
+.pic3 img{
+max-height: 100%;
+max-width: 100%;
+}
+.social{
+	position: absolute;
+	bottom: 40px;
+}
+.social ul li{
+	list-style: none;
+}
+.social ul li a{
+	text-decoration: none;
+	color: rgba(232,232,232,1.00);
+}
+.social i{
+	padding: 13px 20px;
+	font-size: 20px;
+}
+.logos{
+	position: absolute;
+	bottom: 15px;
+	right: 10px;
+}
+.logos img{
+	height:75px;
+}
+.logos a{
+	margin: 0px 50px;
+}
+																				
